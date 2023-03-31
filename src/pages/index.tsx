@@ -17,7 +17,6 @@ export default function Home() {
                 />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <Navbar />
             <div className="h-[calc(100vh-72px)] bg-[url('/background.jpeg')] bg-cover flex flex-col justify-center items-center">
                 <h1 className="text-6xl text-white">
                     Welcome to the paradise of greek mythology!
@@ -35,7 +34,6 @@ export default function Home() {
                     Information »
                 </a>
             </div>
-            <Footer />
         </>
     );
 }
