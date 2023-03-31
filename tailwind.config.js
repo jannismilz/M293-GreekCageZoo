@@ -17,6 +17,9 @@ module.exports = {
                     900: "#402A16",
                 },
             },
+            height: {
+                screenWithNavbar: "calc(100vh - 72px)",
+            },
         },
     },
     plugins: [],
