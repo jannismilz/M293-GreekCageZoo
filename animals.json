@@ -1,0 +1,11 @@
+{
+    "animals": [
+        {
+            "name": "Hey",
+            "description": "Lorem",
+            "image": "/animals/cerberus.webp",
+            "age": 123,
+            "breed": "Some Breed"
+        }
+    ]
+}
