@@ -9,8 +9,18 @@ export default function Footer() {
                     © 2023 GreekCage Zoo
                 </p>
                 <div className="flex gap-8 sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-                    <a href="/privacy">Privacy Policy</a>
-                    <a href="/imprint">Imprint</a>
+                    <a
+                        className="text-black/70 hover:text-black duration-100"
+                        href="/privacy"
+                    >
+                        Privacy Policy
+                    </a>
+                    <a
+                        className="text-black/70 hover:text-black duration-100"
+                        href="/imprint"
+                    >
+                        Imprint
+                    </a>
                 </div>
             </div>
         </footer>
