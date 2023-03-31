@@ -1,10 +1,6 @@
 import Head from "next/head";
-import Image from "next/image";
-import { Inter } from "next/font/google";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
     return (
@@ -22,7 +18,23 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <Navbar />
-            <div className="text-2xl">Hello World!</div>
+            <div className="h-[calc(100vh-72px)] bg-[url('/background.jpeg')] bg-cover flex flex-col justify-center items-center">
+                <h1 className="text-6xl text-white">
+                    Welcome to the paradise of greek mythology!
+                </h1>
+                <a
+                    className="bg-beige-500 hover:bg-beige-400 duration-100 px-8 py-2 rounded-md mt-5 m-2"
+                    href="/animals"
+                >
+                    Animals »
+                </a>
+                <a
+                    className="bg-beige-500 hover:bg-beige-400 duration-100 px-8 py-2 rounded-md m-2"
+                    href="/information"
+                >
+                    Information »
+                </a>
+            </div>
             <Footer />
         </>
     );
