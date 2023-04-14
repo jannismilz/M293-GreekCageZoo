@@ -20,30 +20,6 @@ export default function Animals({ animals }: { animals: Animal[] }) {
                     {animals.map((animal: Animal) => (
                         <AnimalCard animal={animal} />
                     ))}
-                    {animals.map((animal: Animal) => (
-                        <AnimalCard animal={animal} />
-                    ))}
-                    {animals.map((animal: Animal) => (
-                        <AnimalCard animal={animal} />
-                    ))}
-                    {animals.map((animal: Animal) => (
-                        <AnimalCard animal={animal} />
-                    ))}
-                    {animals.map((animal: Animal) => (
-                        <AnimalCard animal={animal} />
-                    ))}
-                    {animals.map((animal: Animal) => (
-                        <AnimalCard animal={animal} />
-                    ))}
-                    {animals.map((animal: Animal) => (
-                        <AnimalCard animal={animal} />
-                    ))}
-                    {animals.map((animal: Animal) => (
-                        <AnimalCard animal={animal} />
-                    ))}
-                    {animals.map((animal: Animal) => (
-                        <AnimalCard animal={animal} />
-                    ))}
                 </div>
             </div>
         </section>
