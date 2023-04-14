@@ -1,6 +1,7 @@
 {
     "animals": [
         {
+            "id": 1,
             "name": "Hey",
             "description": "Lorem",
             "image": "/animals/cerberus.webp",
