@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.ticketsList span,
+.hoursList span {
+    text-align: left;
+    @apply inline-block;
+}
+
+.ticketsList span {
+    min-width: 100px;
+}
+
+.hoursList span {
+    min-width: 50px;
+}
+
+.hoursList span:last-of-type {
+    min-width: 180px;
+}
+
+.ticketsList span:first-of-type,
+.hoursList span:first-of-type {
+    text-align: right;
+    @apply mr-1;
+}
