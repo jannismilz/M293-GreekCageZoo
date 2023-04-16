@@ -1,7 +1,7 @@
 export default function Information() {
     return (
         <div className="h-screenWithNavbar mb-10">
-            <div className="flex p-16 justify-between gap-24">
+            <div className="flex flex-col md:flex-row p-16 justify-between gap-12 md:gap-24 m-auto container">
                 <div className="p-6 bg-beige-200 text-center w-full list-none leading-[50px] ticketsList">
                     <h2 className="text-4xl mb-5 border-b border-black w-3/4 m-auto p-1">
                         Tickets
@@ -79,7 +79,7 @@ export default function Information() {
                     </li>
                 </div>
             </div>
-            <div className="w-full text-center py-8 bg-beige-200">
+            <div className="w-full text-center p-8 bg-beige-200">
                 <em className="mr-2">
                     "Let's bring the wonderful creatures of us mighty gods to
                     the human world as well."
