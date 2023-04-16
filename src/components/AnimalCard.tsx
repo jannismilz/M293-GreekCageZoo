@@ -7,7 +7,7 @@ export default function AnimalCard({ animal }: { animal: Animal }) {
                 <img
                     src={animal.image}
                     alt={animal.name}
-                    className="h-60 w-full object-cover rounded-t-lg hover:scale-125 duration-300"
+                    className="h-60 w-full object-cover object-[20%_20%] rounded-t-lg hover:scale-125 duration-300"
                 />
             </div>
             <div className="p-4 flex justify-between items-center z-10">
