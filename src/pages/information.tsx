@@ -1,6 +1,6 @@
 export default function Information() {
     return (
-        <div className="h-screenWithNavbar mb-10">
+        <div className="mb-10">
             <div className="flex flex-col md:flex-row p-16 justify-between gap-12 md:gap-24 m-auto container">
                 <div className="p-6 bg-beige-200 text-center w-full list-none leading-[50px] ticketsList">
                     <h2 className="text-4xl mb-5 border-b border-black w-3/4 m-auto p-1">
