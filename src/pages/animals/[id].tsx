@@ -22,8 +22,8 @@ export default function Animal({ animals }: { animals: Animal[] }) {
 
     return (
         <section className="p-8">
-            <div className="m-auto container flex gap-8">
-                <div className="w-1/3">
+            <div className="m-auto container flex flex-col sm:flex-row gap-8">
+                <div className="sm:w-1/3">
                     <img
                         src={`${animal.image}`}
                         alt={`Image of ${animal.name}`}
@@ -45,7 +45,7 @@ export default function Animal({ animals }: { animals: Animal[] }) {
                         </p>
                     </div>
                 </div>
-                <div className="w-2/3 bg-beige-400 p-4 rounded-sm">
+                <div className="sm:w-2/3 bg-beige-400 p-4 rounded-sm">
                     <h2 className="text-3xl mb-3 font-semibold">Description</h2>
                     <p className="leading-8">{animal.description}</p>
                 </div>
