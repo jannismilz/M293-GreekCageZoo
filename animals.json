@@ -1,76 +1,76 @@
 {
-    "animals": [
-        {
-            "id": 1,
-            "name": "Theo",
-            "description": "Although the three-headed hellhound is a well-known figure, most people remember him for being kidnapped by Hercules during his last labor. The dog wasn’t Fluffy; he only consumed living flesh, preventing living spirits from entering the Underworld. He may have a dog’s head and body, but his claws belonged to a lion, and his mane was formed of snakes. His parents are two more monsters on this list. Overall, not advised for keeping as a pet. Greek mythology contains several references to strange beasts.",
-            "image": "/animals/cerberus.webp",
-            "age": 142,
-            "breed": "Cerberus"
-        },
-        {
-            "id": 2,
-            "name": "Direa",
-            "description": "Chimera had three heads, just like Cerberus, except hers were those of a lion, a goat, and a serpent. The last two were not on her neck, however, it’s difficult to judge how “headlike” they were. She also exhaled fire, which finally brought about her demise. She was poisoned when the hero Bellerophon threw a spear with a lead tip into her mouth. There has always been a mystery surrounding this species. Even now, the word “chimera” can be used to describe a genetic conundrum.",
-            "image": "/animals/chimera.webp",
-            "age": 57,
-            "breed": "Chimera"
-        },
-        {
-            "id": 3,
-            "name": "Gundala",
-            "description": "Cerberus most likely got his anguine mane from his snake-woman mother Echidna, who was also the mother of Chimera. In reality, she’s not that horrible when compared to the other adorable animals on this list. She is, however, a really bad mother, given birth to more than half of the monsters on this list. Mother of all Monsters” was another name for the echidna.",
-            "image": "/animals/echidna.webp",
-            "age": 57,
-            "breed": "Echidna"
-        },
-        {
-            "id": 4,
-            "name": "Medusa",
-            "description": "Although Stheno and Euryale, the other two Gorgon sisters, were equally as “lovely”, Medusa is likely the most well-known. Among all the three sisters Stheno and Euryale were immortal but Medusa was not. They not only had viper-like hair, but they also had a basilisk-like appearance that could paralyze you. As we all know, Perseus eventually overcame Medusa, but only with Athena’s assistance and in return for Medusa’s head. Medusa was one of the most well-known characters from Greek mythology. Before the curse she was a stunning young woman with golden hair.",
-            "image": "/animals/gorgon.webp",
-            "age": 57,
-            "breed": "Gorgon"
-        },
-        {
-            "id": 5,
-            "name": "Erino",
-            "description": "The backstory of one of the most iconic villains in the Marvel franchise is interesting for Marvel fans. The poisonous Hydra, an offspring of the Echidna and Typhon, had numerous heads that multiplied and regenerated in a matter of seconds. Two heads that would develop in place of each head she lost is what made her immortal. Hercules defeating her by cutting all heads and burning her necks so that the heads wouldn’t regenerate.",
-            "image": "/animals/hydra.webp",
-            "age": 57,
-            "breed": "Hydra"
-        },
-        {
-            "id": 6,
-            "name": "Tristan",
-            "description": "This specific prodigy had wings, a lion’s body, and a human head. But not the eagle’s wings; those belonged to her sibling, the eagle that enjoyed feasting on Prometheus’ liver. The manticore had bat wings, and when you combine those features with a scorpion’s tail and three rows of teeth, you have a really dangerous creature. Heracles himself would not approach that one.",
-            "image": "/animals/manticore.webp",
-            "age": 57,
-            "breed": "Manticore"
-        },
-        {
-            "id": 7,
-            "name": "Davido",
-            "description": "He was a flesh-eating monster with a bull’s head and a man’s body. The Minotaur wasn’t actually all that smart; when Theseus, the person who essentially offered to be eaten, arrived, he passed out and was easily vanquished by the hero. One of the most well-known Greek myths, the tale of the Minotaur has many important components. Characters in this tale include the cunning Daedalus, the courageous Theseus, the perverse King Minos, and his lovely daughter Ariadne.",
-            "image": "/animals/minotaur.webp",
-            "age": 57,
-            "breed": "Minotaur"
-        },
-        {
-            "id": 8,
-            "name": "Megala",
-            "description": "The sirens, the original femme Fatales, preyed on sex-starved sailors by luring them to shipwreck on their island’s cliffs with their seductive voices. Odysseus, surprisingly enough, was able to save his crew by wax-sealing their ears and strapping himself to a mast. The Sirens were stunning beings that sang exquisitely, leading unsuspecting bystanders to their doom. According to the artist, each Siren had a unique appearance that was a cross between a lady and a bird.",
-            "image": "/animals/sirens.webp",
-            "age": 57,
-            "breed": "Sirens"
-        },
-        {
-            "id": 9,
-            "name": "Ragnor",
-            "description": "Typhon was the Father of All Monsters, as you would have imagined. He was essentially everywhere because he was the offspring of Earth (Gaia) and Hell (Tartarus). The man was quite large. Two snakes made up his lower body, and in place of fingers, he had dragonheads. rather than a single human head, Massive viper coils covered his entire buttocks, hissing loudly. He had enormous wings, and flames shot out of his eyes. Even the Olympians feared the monster known as Typhon. His partner was the Echidna (see below), and they were the parents of numerous well-known Greek mythological creatures. They previously battled the Olympian Gods together but were defeated. Typhon was met by Zeus, the King of the Olympians, who doused him in 100 lightning bolts and imprisoned him beneath Sicily’s Mount Etna.",
-            "image": "/animals/typhon.webp",
-            "age": 57,
-            "breed": "Typhon"
-        }
-    ]
+	"animals": [
+		{
+			"id": 1,
+			"name": "Theo",
+			"description": "Although the three-headed hellhound is a well-known figure, most people remember him for being kidnapped by Hercules during his last labor. The dog wasn’t Fluffy; he only consumed living flesh, preventing living spirits from entering the Underworld. He may have a dog’s head and body, but his claws belonged to a lion, and his mane was formed of snakes. His parents are two more monsters on this list. Overall, not advised for keeping as a pet. Greek mythology contains several references to strange beasts.",
+			"image": "/animals/cerberus.webp",
+			"age": 142,
+			"breed": "Cerberus"
+		},
+		{
+			"id": 2,
+			"name": "Direa",
+			"description": "Chimera had three heads, just like Cerberus, except hers were those of a lion, a goat, and a serpent. The last two were not on her neck, however, it’s difficult to judge how “headlike” they were. She also exhaled fire, which finally brought about her demise. She was poisoned when the hero Bellerophon threw a spear with a lead tip into her mouth. There has always been a mystery surrounding this species. Even now, the word “chimera” can be used to describe a genetic conundrum.",
+			"image": "/animals/chimera.webp",
+			"age": 57,
+			"breed": "Chimera"
+		},
+		{
+			"id": 3,
+			"name": "Gundala",
+			"description": "Cerberus most likely got his anguine mane from his snake-woman mother Echidna, who was also the mother of Chimera. In reality, she’s not that horrible when compared to the other adorable animals on this list. She is, however, a really bad mother, given birth to more than half of the monsters on this list. Mother of all Monsters” was another name for the echidna.",
+			"image": "/animals/echidna.webp",
+			"age": 57,
+			"breed": "Echidna"
+		},
+		{
+			"id": 4,
+			"name": "Medusa",
+			"description": "Although Stheno and Euryale, the other two Gorgon sisters, were equally as “lovely”, Medusa is likely the most well-known. Among all the three sisters Stheno and Euryale were immortal but Medusa was not. They not only had viper-like hair, but they also had a basilisk-like appearance that could paralyze you. As we all know, Perseus eventually overcame Medusa, but only with Athena’s assistance and in return for Medusa’s head. Medusa was one of the most well-known characters from Greek mythology. Before the curse she was a stunning young woman with golden hair.",
+			"image": "/animals/gorgon.webp",
+			"age": 57,
+			"breed": "Gorgon"
+		},
+		{
+			"id": 5,
+			"name": "Erino",
+			"description": "The backstory of one of the most iconic villains in the Marvel franchise is interesting for Marvel fans. The poisonous Hydra, an offspring of the Echidna and Typhon, had numerous heads that multiplied and regenerated in a matter of seconds. Two heads that would develop in place of each head she lost is what made her immortal. Hercules defeating her by cutting all heads and burning her necks so that the heads wouldn’t regenerate.",
+			"image": "/animals/hydra.webp",
+			"age": 57,
+			"breed": "Hydra"
+		},
+		{
+			"id": 6,
+			"name": "Tristan",
+			"description": "This specific prodigy had wings, a lion’s body, and a human head. But not the eagle’s wings; those belonged to her sibling, the eagle that enjoyed feasting on Prometheus’ liver. The manticore had bat wings, and when you combine those features with a scorpion’s tail and three rows of teeth, you have a really dangerous creature. Heracles himself would not approach that one.",
+			"image": "/animals/manticore.webp",
+			"age": 57,
+			"breed": "Manticore"
+		},
+		{
+			"id": 7,
+			"name": "Davido",
+			"description": "He was a flesh-eating monster with a bull’s head and a man’s body. The Minotaur wasn’t actually all that smart; when Theseus, the person who essentially offered to be eaten, arrived, he passed out and was easily vanquished by the hero. One of the most well-known Greek myths, the tale of the Minotaur has many important components. Characters in this tale include the cunning Daedalus, the courageous Theseus, the perverse King Minos, and his lovely daughter Ariadne.",
+			"image": "/animals/minotaur.webp",
+			"age": 57,
+			"breed": "Minotaur"
+		},
+		{
+			"id": 8,
+			"name": "Megala",
+			"description": "The sirens, the original femme Fatales, preyed on sex-starved sailors by luring them to shipwreck on their island’s cliffs with their seductive voices. Odysseus, surprisingly enough, was able to save his crew by wax-sealing their ears and strapping himself to a mast. The Sirens were stunning beings that sang exquisitely, leading unsuspecting bystanders to their doom. According to the artist, each Siren had a unique appearance that was a cross between a lady and a bird.",
+			"image": "/animals/sirens.webp",
+			"age": 57,
+			"breed": "Sirens"
+		},
+		{
+			"id": 9,
+			"name": "Ragnor",
+			"description": "Typhon was the Father of All Monsters, as you would have imagined. He was essentially everywhere because he was the offspring of Earth (Gaia) and Hell (Tartarus). The man was quite large. Two snakes made up his lower body, and in place of fingers, he had dragonheads. rather than a single human head, Massive viper coils covered his entire buttocks, hissing loudly. He had enormous wings, and flames shot out of his eyes. Even the Olympians feared the monster known as Typhon. His partner was the Echidna (see below), and they were the parents of numerous well-known Greek mythological creatures. They previously battled the Olympian Gods together but were defeated. Typhon was met by Zeus, the King of the Olympians, who doused him in 100 lightning bolts and imprisoned him beneath Sicily’s Mount Etna.",
+			"image": "/animals/typhon.webp",
+			"age": 57,
+			"breed": "Typhon"
+		}
+	]
 }

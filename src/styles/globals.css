@@ -4,24 +4,24 @@
 
 .ticketsList span,
 .hoursList span {
-    text-align: left;
-    @apply inline-block;
+	text-align: left;
+	@apply inline-block;
 }
 
 .ticketsList span {
-    min-width: 100px;
+	min-width: 100px;
 }
 
 .hoursList span {
-    min-width: 50px;
+	min-width: 50px;
 }
 
 .hoursList span:last-of-type {
-    min-width: 180px;
+	min-width: 180px;
 }
 
 .ticketsList span:first-of-type,
 .hoursList span:first-of-type {
-    text-align: right;
-    @apply mr-1;
+	text-align: right;
+	@apply mr-1;
 }
