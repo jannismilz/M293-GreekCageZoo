@@ -30,14 +30,14 @@ export default function Animal({ animals }: { animals: Animal[] }) {
                         className="aspect-square object-contain"
                     />
                     <div className="flex flex-col gap-4 mt-4">
-                        <p className="text-center py-4 bg-beige-400 rounded-sm text-xl font-semibold">
+                        <p className="text-center py-4 bg-beige-400 rounded-sm text-xl font-semibold shadow-md">
                             {animal.name}
                         </p>
-                        <p className="text-center py-4 bg-beige-400 rounded-sm">
+                        <p className="text-center py-4 bg-beige-400 rounded-sm shadow-md">
                             <span className="font-semibold">{animal.age}</span>{" "}
                             years old
                         </p>
-                        <p className="text-center py-4 bg-beige-400 rounded-sm">
+                        <p className="text-center py-4 bg-beige-400 rounded-sm shadow-md">
                             <span className="italic font-semibold">
                                 {animal.breed}
                             </span>{" "}
@@ -45,7 +45,7 @@ export default function Animal({ animals }: { animals: Animal[] }) {
                         </p>
                     </div>
                 </div>
-                <div className="sm:w-2/3 bg-beige-400 p-4 rounded-sm">
+                <div className="sm:w-2/3 bg-beige-400 p-4 rounded-sm shadow-md">
                     <h2 className="text-3xl mb-3 font-semibold">Description</h2>
                     <p className="leading-8">{animal.description}</p>
                 </div>

@@ -2,7 +2,7 @@ import { Animal } from "@/pages/animals";
 
 export default function AnimalCard({ animal }: { animal: Animal }) {
     return (
-        <div className="bg-beige-400 rounded-lg flex-[0_0_47%] md:flex-[0_0_30%] lg:flex-[0_0_22%]">
+        <div className="bg-beige-400 rounded-lg flex-[0_0_47%] md:flex-[0_0_30%] lg:flex-[0_0_22%] shadow-lg">
             <div className="z-0 overflow-hidden">
                 <a href={`/animals/${animal.id}`}>
                     <img
