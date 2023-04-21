@@ -11,9 +11,9 @@ export default function Footer() {
                 <div className="flex gap-8 sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
                     <a
                         className="text-gray-600 hover:text-black hover:bg-beige-500 px-3 py-1.5 rounded-3xl duration-200"
-                        href="/privacy"
+                        href="/data-protection"
                     >
-                        Privacy Policy
+                        Data protection
                     </a>
                     <a
                         className="text-gray-600 hover:text-black hover:bg-beige-500 px-3 py-1.5 rounded-3xl duration-200"
