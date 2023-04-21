@@ -2,7 +2,7 @@ import { Animal } from "@/pages/animals";
 
 export default function AnimalCard({ animal }: { animal: Animal }) {
 	return (
-		<div className="bg-beige-400 rounded-lg flex-[0_0_47%] md:flex-[0_0_30%] lg:flex-[0_0_22%] shadow-lg">
+		<div className="bg-beige-200 rounded-lg flex-[0_0_47%] md:flex-[0_0_30%] lg:flex-[0_0_22%] shadow-lg">
 			<div className="z-0 overflow-hidden">
 				<a href={`/animals/${animal.id}`}>
 					<img
@@ -24,7 +24,7 @@ export default function AnimalCard({ animal }: { animal: Animal }) {
 				<div>
 					<a
 						href={`/animals/${animal.id}`}
-						className="text-sm text-gray-600 hover:text-black hover:bg-beige-500 px-3 py-1.5 rounded-3xl duration-200"
+						className="text-sm text-gray-600 hover:text-black hover:bg-beige-400 px-3 py-1.5 rounded-3xl duration-200"
 					>
 						More »
 					</a>
