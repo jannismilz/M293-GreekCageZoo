@@ -9,14 +9,12 @@ if (isGithubActions) {
 
 	basePath = `/${repo}`;
 	assetPrefix = `/${repo}/`;
-	console.log(basePath, assetPrefix);
 }
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
 	reactStrictMode: true,
-	...(basePath &&
-		assetPrefix && { basePath: basePath, assetPrefix: assetPrefix }),
+	...(basePath && { basePath: basePath, assetPrefix: assetPrefix }),
 };
 
 module.exports = nextConfig;
