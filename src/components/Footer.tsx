@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Logo from "./Logo";
 
 export default function Footer() {
@@ -9,12 +10,12 @@ export default function Footer() {
 					© 2023 GreekCage Zoo
 				</p>
 				<div className="flex gap-8 sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-					<a
+					<Link
 						className="text-gray-600 hover:text-black hover:bg-beige-500 px-3 py-1.5 rounded-3xl duration-200"
 						href="/imprint"
 					>
 						Imprint
-					</a>
+					</Link>
 				</div>
 			</div>
 		</footer>

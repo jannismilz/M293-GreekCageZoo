@@ -1,6 +1,5 @@
 import Head from "next/head";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
+import Link from "next/link";
 
 export default function Home() {
 	return (
@@ -21,18 +20,18 @@ export default function Home() {
 				<h1 className="text-6xl text-white text-center">
 					Welcome to the paradise of greek mythology!
 				</h1>
-				<a
+				<Link
 					className="bg-beige-500 hover:bg-beige-400 duration-100 px-8 py-2 rounded-md mt-5 m-2"
 					href="/animals"
 				>
 					Animals »
-				</a>
-				<a
+				</Link>
+				<Link
 					className="bg-beige-500 hover:bg-beige-400 duration-100 px-8 py-2 rounded-md m-2"
 					href="/information"
 				>
 					Information »
-				</a>
+				</Link>
 			</div>
 		</>
 	);

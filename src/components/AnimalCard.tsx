@@ -1,16 +1,17 @@
 import { Animal } from "@/pages/animals";
+import Link from "next/link";
 
 export default function AnimalCard({ animal }: { animal: Animal }) {
 	return (
 		<div className="bg-beige-200 rounded-lg flex-[0_0_47%] md:flex-[0_0_30%] lg:flex-[0_0_22%] shadow-lg">
 			<div className="z-0 overflow-hidden">
-				<a href={`/animals/${animal.id}`}>
+				<Link href={`/animals/${animal.id}`}>
 					<img
 						src={animal.image}
 						alt={animal.name}
 						className="h-60 w-full object-cover object-[20%_20%] rounded-t-lg hover:scale-125 duration-300"
 					/>
-				</a>
+				</Link>
 			</div>
 			<div className="p-4 flex justify-between items-center z-10">
 				<div>
@@ -22,12 +23,12 @@ export default function AnimalCard({ animal }: { animal: Animal }) {
 					</p>
 				</div>
 				<div>
-					<a
+					<Link
 						href={`/animals/${animal.id}`}
 						className="text-sm text-gray-600 hover:text-black hover:bg-beige-400 px-3 py-1.5 rounded-3xl duration-200"
 					>
 						More »
-					</a>
+					</Link>
 				</div>
 			</div>
 		</div>
