@@ -15,7 +15,13 @@ if (isGithubActions) {
 const nextConfig = {
 	reactStrictMode: true,
 	...(basePath &&
-		assetPrefix && { basePath: basePath, assetPrefix: assetPrefix }),
+		assetPrefix && {
+			basePath: basePath,
+			assetPrefix: assetPrefix,
+			env: {
+				BASE_PATH: basePath,
+			},
+		}),
 	images: {
 		unoptimized: true,
 	},

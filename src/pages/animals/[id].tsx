@@ -24,7 +24,7 @@ export default function Animal({ animals }: { animals: Animal[] }) {
 			<div className="m-auto container flex flex-col sm:flex-row gap-8">
 				<div className="sm:w-1/3">
 					<Image
-						src={`${animal.image}`}
+						src={process.env.BASE_PATH || "" + animal.image}
 						alt={`Image of ${animal.name}`}
 						width={500}
 						height={500}
