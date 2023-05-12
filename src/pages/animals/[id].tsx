@@ -26,6 +26,8 @@ export default function Animal({ animals }: { animals: Animal[] }) {
 					<Image
 						src={`${animal.image}`}
 						alt={`Image of ${animal.name}`}
+						width={500}
+						height={500}
 						className="aspect-square object-contain"
 					/>
 					<div className="flex flex-col gap-4 mt-4">

@@ -10,6 +10,8 @@ export default function AnimalCard({ animal }: { animal: Animal }) {
 					<Image
 						src={animal.image}
 						alt={animal.name}
+						width={100}
+						height={100}
 						className="h-60 w-full object-cover object-[20%_20%] rounded-t-lg hover:scale-125 duration-300"
 					/>
 				</Link>
