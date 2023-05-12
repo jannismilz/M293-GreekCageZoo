@@ -17,8 +17,8 @@ const nextConfig = {
 	reactStrictMode: true,
 	// ...(basePath &&
 	// 	assetPrefix && { basePath: basePath, assetPrefix: assetPrefix }),
-	basePath: basePath,
-	assetPrefix: assetPrefix,
+	basePath: "/m293-greekcagezoo",
+	assetPrefix: "/m293-greekcagezoo/",
 };
 
 module.exports = nextConfig;
