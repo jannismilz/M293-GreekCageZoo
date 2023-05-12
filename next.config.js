@@ -1,24 +1,22 @@
-// const isGithubActions = process.env.GITHUB_ACTIONS || false;
+const isGithubActions = process.env.GITHUB_ACTIONS || false;
 
-// let assetPrefix;
-// let basePath;
+let basePath;
+let assetPrefix;
 
-// if (isGithubActions) {
-// 	// trim off `<owner>/`
-// }
+if (isGithubActions) {
+	// trim off `<owner>/`
+	const repo = process.env.GITHUB_REPOSITORY.replace(/.*?\//, "");
 
-// const repo = process.env.GITHUB_REPOSITORY.replace(/.*?\//, "");
-
-// assetPrefix = `/${repo}/`;
-// basePath = `/${repo}`;
+	basePath = `/${repo}`;
+	assetPrefix = `/${repo}/`;
+	console.log(basePath, assetPrefix);
+}
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
 	reactStrictMode: true,
-	// ...(basePath &&
-	// 	assetPrefix && { basePath: basePath, assetPrefix: assetPrefix }),
-	basePath: "/m293-greekcagezoo",
-	assetPrefix: "/m293-greekcagezoo/",
+	...(basePath &&
+		assetPrefix && { basePath: basePath, assetPrefix: assetPrefix }),
 };
 
 module.exports = nextConfig;
