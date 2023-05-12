@@ -18,8 +18,6 @@ export default function Animal({ animals }: { animals: Animal[] }) {
 		(animal) => animal.id == parseInt(router.query.id as string),
 	) as Animal;
 
-	console.log(animal);
-
 	return (
 		<section className="p-8">
 			<div className="m-auto container flex flex-col sm:flex-row gap-8">
