@@ -15,12 +15,8 @@ if (isGithubActions) {
 /** @type {import('next').NextConfig} */
 const nextConfig = {
 	reactStrictMode: true,
-	// ...(basePath &&
-	// 	assetPrefix && { basePath: basePath, assetPrefix: assetPrefix }),
-	basePath:
-		process.env.NODE_ENV === "production"
-			? "https://jannismilz.github.io/m293-greekcagezoo"
-			: undefined,
+	...(basePath &&
+		assetPrefix && { basePath: basePath, assetPrefix: assetPrefix }),
 };
 
 module.exports = nextConfig;
