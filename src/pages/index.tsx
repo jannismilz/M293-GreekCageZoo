@@ -16,7 +16,9 @@ export default function Home() {
 				/>
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
-			<div className="h-screenWithNavbar bg-[url('/background.jpeg')] bg-cover flex flex-col justify-center items-center">
+			<div
+				className={`h-screenWithNavbar bg-[url('${process.env.BASE_PATH}/background.jpeg')] bg-cover flex flex-col justify-center items-center`}
+			>
 				<h1 className="text-6xl text-white text-center">
 					Welcome to the paradise of greek mythology!
 				</h1>
