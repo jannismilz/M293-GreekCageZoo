@@ -14,7 +14,8 @@ if (isGithubActions) {
 /** @type {import('next').NextConfig} */
 const nextConfig = {
 	reactStrictMode: true,
-	...(basePath && { basePath: basePath, assetPrefix: assetPrefix }),
+	...(basePath &&
+		assetPrefix && { basePath: basePath, assetPrefix: assetPrefix }),
 };
 
 module.exports = nextConfig;
