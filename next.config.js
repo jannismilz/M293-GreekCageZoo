@@ -1,7 +1,7 @@
 const isGithubActions = process.env.GITHUB_ACTIONS || false;
 
-let assetPrefix = "";
-let basePath = "";
+let assetPrefix;
+let basePath;
 
 if (isGithubActions) {
 	// trim off `<owner>/`
@@ -14,8 +14,8 @@ if (isGithubActions) {
 /** @type {import('next').NextConfig} */
 const nextConfig = {
 	reactStrictMode: true,
-	basePath: basePath,
-	assetPrefix: assetPrefix,
+	...(basePath &&
+		assetPrefix && { basePath: basePath, assetPrefix: assetPrefix }),
 };
 
 module.exports = nextConfig;
