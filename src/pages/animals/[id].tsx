@@ -1,5 +1,6 @@
 import AnimalCard from "@/components/AnimalCard";
 import fsPromises from "fs/promises";
+import Image from "next/image";
 import { useRouter } from "next/router";
 import path from "path";
 
@@ -22,7 +23,7 @@ export default function Animal({ animals }: { animals: Animal[] }) {
 		<section className="p-8">
 			<div className="m-auto container flex flex-col sm:flex-row gap-8">
 				<div className="sm:w-1/3">
-					<img
+					<Image
 						src={`${animal.image}`}
 						alt={`Image of ${animal.name}`}
 						className="aspect-square object-contain"

@@ -1,4 +1,5 @@
 import { Animal } from "@/pages/animals";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function AnimalCard({ animal }: { animal: Animal }) {
@@ -6,7 +7,7 @@ export default function AnimalCard({ animal }: { animal: Animal }) {
 		<div className="bg-beige-200 rounded-lg flex-[0_0_47%] md:flex-[0_0_30%] lg:flex-[0_0_22%] shadow-lg">
 			<div className="z-0 overflow-hidden">
 				<Link href={`/animals/${animal.id}`}>
-					<img
+					<Image
 						src={animal.image}
 						alt={animal.name}
 						className="h-60 w-full object-cover object-[20%_20%] rounded-t-lg hover:scale-125 duration-300"
