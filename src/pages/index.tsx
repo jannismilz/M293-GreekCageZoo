@@ -18,10 +18,11 @@ export default function Home() {
 			</Head>
 			<div
 				className={
-					`h-screenWithNavbar bg-[url(` +
-					process.env.BASE_PATH +
-					"/background.jpeg" +
-					`)] bg-cover flex flex-col justify-center items-center`
+					`h-screenWithNavbar bg-[url("` +
+					(process.env.BASE_PATH
+						? process.env.BASE_PATH + "/background.jpeg"
+						: "/background.jpeg") +
+					`")] bg-cover flex flex-col justify-center items-center`
 				}
 			>
 				<h1 className="text-6xl text-white text-center">

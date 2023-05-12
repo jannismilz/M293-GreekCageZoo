@@ -8,7 +8,11 @@ export default function AnimalCard({ animal }: { animal: Animal }) {
 			<div className="z-0 overflow-hidden">
 				<Link href={`/animals/${animal.id}`}>
 					<Image
-						src={process.env.BASE_PATH + animal.image}
+						src={
+							process.env.BASE_PATH
+								? process.env.BASE_PATH + animal.image
+								: animal.image
+						}
 						alt={animal.name}
 						width={100}
 						height={100}
