@@ -27,7 +27,7 @@ export default function Animals({ animals }: { animals: Animal[] }) {
 					<h1 className="text-5xl font-semibold mb-10">Animals</h1>
 					<div className="flex flex-wrap w-full justify-between gap-y-8">
 						{animals.map((animal: Animal) => (
-							<AnimalCard animal={animal} />
+							<AnimalCard key={animal.id} animal={animal} />
 						))}
 					</div>
 				</div>
