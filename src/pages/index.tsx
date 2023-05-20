@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
@@ -17,14 +18,18 @@ export default function Home() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<div
-				className={
-					`h-screenWithNavbar bg-[url("` +
-					(process.env.BASE_PATH
-						? process.env.BASE_PATH + "/background.jpeg"
-						: "/background.jpeg") +
-					`")] bg-cover flex flex-col justify-center items-center`
-				}
+				className={`h-screenWithNavbar flex flex-col justify-center items-center`}
 			>
+				<Image
+					src={
+						process.env.BASE_PATH
+							? process.env.BASE_PATH + "/background.jpeg"
+							: "/background.jpeg"
+					}
+					alt="Home background image"
+					fill
+					className="-z-10 object-cover"
+				/>
 				<h1 className="text-6xl text-white text-center">
 					Welcome to the paradise of greek mythology!
 				</h1>
