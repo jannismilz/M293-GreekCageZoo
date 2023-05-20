@@ -1,5 +1,6 @@
 import AnimalCard from "@/components/AnimalCard";
 import fsPromises from "fs/promises";
+import Head from "next/head";
 import Image from "next/image";
 import { useRouter } from "next/router";
 import path from "path";
@@ -20,42 +21,55 @@ export default function Animal({ animals }: { animals: Animal[] }) {
 	) as Animal;
 
 	return (
-		<section className="p-8">
-			<div className="m-auto container flex flex-col sm:flex-row gap-8">
-				<div className="sm:w-1/3">
-					<Image
-						src={
-							process.env.BASE_PATH
-								? process.env.BASE_PATH + animal.image
-								: animal.image
-						}
-						alt={`Image of ${animal.name}`}
-						width={500}
-						height={500}
-						className="aspect-square object-contain"
-					/>
-					<div className="flex flex-col gap-4 mt-4">
-						<p className="text-center py-4 bg-beige-400 rounded-sm text-xl font-semibold shadow-md">
-							{animal.name}
-						</p>
-						<p className="text-center py-4 bg-beige-400 rounded-sm shadow-md">
-							<span className="font-semibold">{animal.age}</span>{" "}
-							years old
-						</p>
-						<p className="text-center py-4 bg-beige-400 rounded-sm shadow-md">
-							<span className="italic font-semibold">
-								{animal.breed}
-							</span>{" "}
-							breed
-						</p>
+		<>
+			<Head>
+				<title>GreekCageZoo - {animal.name}</title>
+				<meta
+					name="description"
+					content={`Get to know ${animal.name}, our ${animal.breed}, more in-depth.`}
+				/>
+			</Head>
+			<section className="p-8">
+				<div className="m-auto container flex flex-col sm:flex-row gap-8">
+					<div className="sm:w-1/3">
+						<Image
+							src={
+								process.env.BASE_PATH
+									? process.env.BASE_PATH + animal.image
+									: animal.image
+							}
+							alt={`Image of ${animal.name}`}
+							width={500}
+							height={500}
+							className="aspect-square object-contain"
+						/>
+						<div className="flex flex-col gap-4 mt-4">
+							<p className="text-center py-4 bg-beige-400 rounded-sm text-xl font-semibold shadow-md">
+								{animal.name}
+							</p>
+							<p className="text-center py-4 bg-beige-400 rounded-sm shadow-md">
+								<span className="font-semibold">
+									{animal.age}
+								</span>{" "}
+								years old
+							</p>
+							<p className="text-center py-4 bg-beige-400 rounded-sm shadow-md">
+								<span className="italic font-semibold">
+									{animal.breed}
+								</span>{" "}
+								breed
+							</p>
+						</div>
+					</div>
+					<div className="sm:w-2/3 bg-beige-400 p-4 rounded-sm shadow-md">
+						<h2 className="text-3xl mb-3 font-semibold">
+							Description
+						</h2>
+						<p className="leading-8">{animal.description}</p>
 					</div>
 				</div>
-				<div className="sm:w-2/3 bg-beige-400 p-4 rounded-sm shadow-md">
-					<h2 className="text-3xl mb-3 font-semibold">Description</h2>
-					<p className="leading-8">{animal.description}</p>
-				</div>
-			</div>
-		</section>
+			</section>
+		</>
 	);
 }
 

@@ -11,11 +11,6 @@ export default function Home() {
 					name="description"
 					content="A zoo for the perfect adventure through the animals of our mighty gods."
 				/>
-				<meta
-					name="viewport"
-					content="width=device-width, initial-scale=1"
-				/>
-				<link rel="icon" href="/favicon.svg" />
 			</Head>
 			<div
 				className={`h-screenWithNavbar flex flex-col justify-center items-center`}
